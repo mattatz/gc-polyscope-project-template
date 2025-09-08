@@ -1,0 +1,1402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7077E70BDC03A96C5BF0F722 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CB30AB8971B741EF8046DD3C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				06726F422676480C317127DA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				465F2B7813DA455899FFC983 /* PBXTargetDependency */,
+				61C8CF257E804A979540C3B3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		96F7EDDF3C4A33D990F56C96 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8054E065DC4041B2AB710EF4 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				81B1A96972C440558F431AC7 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		BD3A3CEA6EE92A188F5F8A62 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1B2863015094600B16FDE91 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				76C585AA32DA6455B2F1E1FF /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0034DC90C8A844889579B606 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.h */ = {isa = PBXBuildFile; fileRef = E01B4C3A6E8C487CBF9645D5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.h */; };
+		0620734DA2B6404BAEC2A867 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.ipp */ = {isa = PBXBuildFile; fileRef = 67CE3D0D63624E3DA1C711F5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.ipp */; };
+		069EAA1A96024D2FABAE076D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/geodesic_centroidal_voronoi_tessellation.cpp */ = {isa = PBXBuildFile; fileRef = BA1325FF9BB841A187099421 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/geodesic_centroidal_voronoi_tessellation.cpp */; };
+		07B1DC2A191246A68504F724 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/quaternion.h */ = {isa = PBXBuildFile; fileRef = 96157D3E2BDF4BC19CB1266C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/quaternion.h */; };
+		0B5539CEF23C483FB72E4B2A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.h */ = {isa = PBXBuildFile; fileRef = 63ED8405319C457A96D35D16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.h */; };
+		0CE2758AF4F5436BB1D6A848 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/utilities.cpp */ = {isa = PBXBuildFile; fileRef = EBDB8D9529F64E588FFBCD11 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/utilities.cpp */; };
+		0E99A0778B1F4E3B932CB412 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/rich_surface_mesh_data.cpp */ = {isa = PBXBuildFile; fileRef = 410329ED50444CAB9A190D9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/rich_surface_mesh_data.cpp */; };
+		106FCB18CC9B4EED8BDAE0AB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/heat_method_distance.cpp */ = {isa = PBXBuildFile; fileRef = 123B8CDFC05B44DAAAA60BC0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/heat_method_distance.cpp */; };
+		17C160CF1BCA437A985297FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/normal_coordinates.cpp */ = {isa = PBXBuildFile; fileRef = 23C5BDE51DD74178A3446FF4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/normal_coordinates.cpp */; };
+		17FE7CD666E443859A5B07EB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intersection.cpp */ = {isa = PBXBuildFile; fileRef = 98BAA9C7AB4E4EB9ADD527B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intersection.cpp */; };
+		1B3ABB9DF7DB47D4B90BD3B6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/parameterize.h */ = {isa = PBXBuildFile; fileRef = 46EDCB68FA674ED19499D019 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/parameterize.h */; };
+		1C700416F18346669A095D32 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/quadric_error_simplification.h */ = {isa = PBXBuildFile; fileRef = A829B956810B4A588C786A97 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/quadric_error_simplification.h */; };
+		1E7087D8D5E04A79B7D843C6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/suitesparse_utilities.cpp */ = {isa = PBXBuildFile; fileRef = 535F10F8AB844620AB3A68A7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/suitesparse_utilities.cpp */; };
+		1EA34774CBB84A62BC455857 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/meshio.cpp */ = {isa = PBXBuildFile; fileRef = 40E03D0167294A23B6B64AA5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/meshio.cpp */; };
+		1F696E94CB9743058ACA572F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_factories.h */ = {isa = PBXBuildFile; fileRef = 9147E7F56DE74E3BB9B09296 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_factories.h */; };
+		1FFEA474DDB045C4AF7E4C76 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.ipp */ = {isa = PBXBuildFile; fileRef = D773D69C04924CEE9DFC733D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.ipp */; };
+		20322C4442504D47BC255C80 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mutation_manager.cpp */ = {isa = PBXBuildFile; fileRef = 557040C913D44369B9CBB619 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mutation_manager.cpp */; };
+		20B40C25B28044A4AFF48672 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesics.h */ = {isa = PBXBuildFile; fileRef = 3CE56C1E0ECC4F8B91AD0416 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesics.h */; };
+		217327EC82F744DFB65D7925 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surgery.h */ = {isa = PBXBuildFile; fileRef = CF8EC9CF5A5A4D79AE062909 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surgery.h */; };
+		2240892EA6364A2AA2D48215 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/neighborhoods.cpp */ = {isa = PBXBuildFile; fileRef = 3BFA0CD07A5F4ED39C92C2F7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/neighborhoods.cpp */; };
+		243CA53102D4441FB5E8649A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vertex_position_geometry.cpp */ = {isa = PBXBuildFile; fileRef = F87021D1C9E846BFB5D15783 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vertex_position_geometry.cpp */; };
+		259788964F634BD78CA85FD0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_io.cpp */ = {isa = PBXBuildFile; fileRef = 67BB1011AB77419F937BC393 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_io.cpp */; };
+		26BC76C09287419F898F06D8 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/heat_method_distance.h */ = {isa = PBXBuildFile; fileRef = 0AD8D53C223F451CB27802C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/heat_method_distance.h */; };
+		27D61AC08FB94632AB2737CC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.h */ = {isa = PBXBuildFile; fileRef = 560D75E797954A1FAF3A8958 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.h */; };
+		2829DB4525A641929DECFD76 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/suitesparse_utilities.h */ = {isa = PBXBuildFile; fileRef = 823C9C6216C342EF99B616FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/suitesparse_utilities.h */; };
+		2A818414AD584CBEAA7002D7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/integer_coordinates_intrinsic_triangulation.cpp */ = {isa = PBXBuildFile; fileRef = 749C6AE15D6340D69187AB0F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/integer_coordinates_intrinsic_triangulation.cpp */; };
+		2C45A041DFA64F74B2D407DD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.ipp */ = {isa = PBXBuildFile; fileRef = 98C48AB465FF4A549A644B68 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.ipp */; };
+		2E296923725B432FA5E5EDAC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vector_heat_method.cpp */ = {isa = PBXBuildFile; fileRef = 12C5D86656A34C0F8FC2EFEE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vector_heat_method.cpp */; };
+		2EEE2EBB73F04708947A0D15 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/elementary_geometry.cpp */ = {isa = PBXBuildFile; fileRef = B4503AA725A74D9DB939D9AB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/elementary_geometry.cpp */; };
+		311033F7BA6546C5BB952C94 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/base_geometry_interface.h */ = {isa = PBXBuildFile; fileRef = C6BEBCA36D84495A85E25744 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/base_geometry_interface.h */; };
+		33836528AA6A4ABDB432EA0D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/edge_length_geometry.cpp */ = {isa = PBXBuildFile; fileRef = BEB749DCD23B47BABC11AC32 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/edge_length_geometry.cpp */; };
+		3555C65C8146445C8BFAD851 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_mollification.cpp */ = {isa = PBXBuildFile; fileRef = F1BAA32D134145F2A2E28A19 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_mollification.cpp */; };
+		382A7089F1944C49A24EAB65 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.h */ = {isa = PBXBuildFile; fileRef = 429E37880ECE441B8F22BA17 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.h */; };
+		38AF72F7D93649AB948991B9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/subdivide.cpp */ = {isa = PBXBuildFile; fileRef = DFA763DB54764D79874C1F01 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/subdivide.cpp */; };
+		3946D1F2938246A8B7CA59F2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_ray_tracer.h */ = {isa = PBXBuildFile; fileRef = E30B67D3855E4F2FA3FD95B2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_ray_tracer.h */; };
+		39AF314DE2694D989AB6CA50 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/boundary_first_flattening.cpp */ = {isa = PBXBuildFile; fileRef = FC311F211E1F41758367D508 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/boundary_first_flattening.cpp */; };
+		3A0B9E8B9338458BBCC8EF13 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/square_solvers.cpp */ = {isa = PBXBuildFile; fileRef = AF510BC1A5C346EBAF65D673 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/square_solvers.cpp */; };
+		3A43FBE71A984BA49D065AA6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/uniformize.h */ = {isa = PBXBuildFile; fileRef = A97981F5C2CA495AA9F64804 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/uniformize.h */; };
+		3B26CBF0535B4ACA8A274424 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_logic_templates.ipp */ = {isa = PBXBuildFile; fileRef = 53A986661A104289B2E3DCE4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_logic_templates.ipp */; };
+		3B495D2282EB4C99AE39343D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/meshio.h */ = {isa = PBXBuildFile; fileRef = 1B4C5F24DF494BD1A1C312ED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/meshio.h */; };
+		3C02D29E183E43D1AED87F74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/embedded_geometry_interface.h */ = {isa = PBXBuildFile; fileRef = FE4AE0A8CEDE4B79B9B341DF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/embedded_geometry_interface.h */; };
+		3C30C317AB0A45C9BE328742 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh_factories.cpp */ = {isa = PBXBuildFile; fileRef = 56E1BAA8216742D98F72DA45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh_factories.cpp */; };
+		3E830E203A80446F908B74C2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_graph_algorithms.h */ = {isa = PBXBuildFile; fileRef = E241CDB91B494F629689A2EA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_graph_algorithms.h */; };
+		3FBCE76DB5724829AFB78B26 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/quadric_error_simplification.cpp */ = {isa = PBXBuildFile; fileRef = 5FB83C5F80B441D596FD3C83 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/quadric_error_simplification.cpp */; };
+		3FE8EA357611499099040881 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/qr_solvers.cpp */ = {isa = PBXBuildFile; fileRef = 91156BC9A591495198DEADAE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/qr_solvers.cpp */; };
+		4221C617969C4B1F834E9A4E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/transfer_functions.h */ = {isa = PBXBuildFile; fileRef = 9CC4A462E1BD4004BBB160A0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/transfer_functions.h */; };
+		42AFBF25353A4FF2B4A3F7CD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.h */ = {isa = PBXBuildFile; fileRef = C47E98A0EB9F482DBA55F540 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.h */; };
+		4388CBF4FCCD44108620B7C0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_polygon_mesh.h */ = {isa = PBXBuildFile; fileRef = 6F64A0478ADE4B10AA167422 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_polygon_mesh.h */; };
+		46D62785D08E47D4B425F1E3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/remeshing.cpp */ = {isa = PBXBuildFile; fileRef = 41A6C528DD7F4B1A946C19DA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/remeshing.cpp */; };
+		46F2E214824449D696199B45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.ipp */ = {isa = PBXBuildFile; fileRef = 5AAE152EF20C41AFA96D0BED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.ipp */; };
+		47D03F8AE8894A7488A814ED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/knn.h */ = {isa = PBXBuildFile; fileRef = 5C35AA83A59B497C9ACA41C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/knn.h */; };
+		4CA0E5E072634891979A4EC8 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.ipp */ = {isa = PBXBuildFile; fileRef = B7179F4A6A3C45D0BBAC1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.ipp */; };
+		4D387D7E80FC4DC185560C9F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_geometry_interface.cpp */ = {isa = PBXBuildFile; fileRef = B7D571F065F24C4497BF309E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_geometry_interface.cpp */; };
+		4E41808A8B1C458F9DFCC861 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.ipp */ = {isa = PBXBuildFile; fileRef = 40EBDD7CF5934F4FAF34D42F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.ipp */; };
+		53F47DBD9BFF4B8884BF66A0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/geodesic_centroidal_voronoi_tessellation.h */ = {isa = PBXBuildFile; fileRef = FCCF90F360F64A86AEE88CE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/geodesic_centroidal_voronoi_tessellation.h */; };
+		54D28E5C6F9C4F748B827DFB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.h */ = {isa = PBXBuildFile; fileRef = 32C1823B360047CA95CCCAC9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.h */; };
+		55489A9273CC4DF48288FBD3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.ipp */ = {isa = PBXBuildFile; fileRef = 2AEC219E1EC54959ACA5F28B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.ipp */; };
+		56465B17D741408DB941BFF5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.ipp */ = {isa = PBXBuildFile; fileRef = ED19844CC33349D9A0634BC2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.ipp */; };
+		566571B238D44B8A91EB5C74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_polygon_mesh.cpp */ = {isa = PBXBuildFile; fileRef = 9BCE12A72ED64F4AA9727802 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_polygon_mesh.cpp */; };
+		568C77B5DB904C679609840A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/combining_hash_functions.h */ = {isa = PBXBuildFile; fileRef = 57275E46A9E34107A721FCB8 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/combining_hash_functions.h */; };
+		56C2A890BE134A3CB8F511FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.ipp */ = {isa = PBXBuildFile; fileRef = F0FEECFD18B84AABAF27F016 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.ipp */; };
+		57E170952EFF45D0AD71C294 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/timing.h */ = {isa = PBXBuildFile; fileRef = B7354FEE03FB41D6A1F8C306 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/timing.h */; };
+		59AB25831C3C4AE689FF6EDC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/detect_symmetry.h */ = {isa = PBXBuildFile; fileRef = 6FD2BE3E03734DC3BB2F3201 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/detect_symmetry.h */; };
+		5D739F9FDF484275B4E944C5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/utilities.h */ = {isa = PBXBuildFile; fileRef = FA3977E9F822431C8935CED2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/utilities.h */; };
+		5E158AAF1940466DA18D10F0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.ipp */ = {isa = PBXBuildFile; fileRef = C399810BAC974DF8B55FA22B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.ipp */; };
+		5EEA0152573F402DAA5C905F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.ipp */ = {isa = PBXBuildFile; fileRef = 8E6B858C04E4433D9299CDDE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.ipp */; };
+		62A2476059514C729EA86C46 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud.cpp */ = {isa = PBXBuildFile; fileRef = 9E532F666C1B4E97AE79DD7B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud.cpp */; };
+		63F54B84A4D54D048810A5BC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/stripe_patterns.cpp */ = {isa = PBXBuildFile; fileRef = F9A1D8756A3A464D9EB0E7CA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/stripe_patterns.cpp */; };
+		66E1237BAA564A8EB8A37BC2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_algebra_utilities.cpp */ = {isa = PBXBuildFile; fileRef = 1DE3938F3368421E860C52B4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_algebra_utilities.cpp */; };
+		66F2BE270ABF47688FA0B63D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_polyhedral_geodesics.cpp */ = {isa = PBXBuildFile; fileRef = E43F430ADA524836B7E55D47 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_polyhedral_geodesics.cpp */; };
+		67D9F20B0333468EA82383AC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.ipp */ = {isa = PBXBuildFile; fileRef = 7338588AE1FF40768B27A054 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.ipp */; };
+		735943AC93C14282A7232FD2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/direction_fields.h */ = {isa = PBXBuildFile; fileRef = 03ECA446B1054AC291897C45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/direction_fields.h */; };
+		73967750F1194ACA83267F5D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/direction_fields.cpp */ = {isa = PBXBuildFile; fileRef = 2561A315829F4427B0CF7A57 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/direction_fields.cpp */; };
+		743A82EA9B044432B8A08F25 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesics.cpp */ = {isa = PBXBuildFile; fileRef = 061F89B031D14239940FA196 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesics.cpp */; };
+		774EED675CE04BA499E23E55 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesic_helpers.cpp */ = {isa = PBXBuildFile; fileRef = E1E45AF0D63A43B9A8645182 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesic_helpers.cpp */; };
+		7D26233AB6AD4B1ABBFC9EF9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/disjoint_sets.h */ = {isa = PBXBuildFile; fileRef = 79F401B6901D440E9D5859C6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/disjoint_sets.h */; };
+		7FCEF295431F4FDDA24A064F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_solvers.h */ = {isa = PBXBuildFile; fileRef = 8EEF70E871E24EEC85AB323C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_solvers.h */; };
+		8087BF34C5124CFAB92805BA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_normal_geometry.cpp */ = {isa = PBXBuildFile; fileRef = 89A44A7B7BAA46278EAA4E49 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_normal_geometry.cpp */; };
+		81239FF647F145A39CF32174 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/embedded_geometry_interface.cpp */ = {isa = PBXBuildFile; fileRef = EB9277AB34324F5EAE0D07B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/embedded_geometry_interface.cpp */; };
+		819EBD61D46B4886AF37A39A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/remeshing.h */ = {isa = PBXBuildFile; fileRef = 0111895383D247C5930E202D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/remeshing.h */; };
+		81CD3A0105494546AC8BB7D4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.ipp */ = {isa = PBXBuildFile; fileRef = 5D11AFA333EA4BAEBBAD959D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.ipp */; };
+		820BE52707F0438E911AF255 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.h */ = {isa = PBXBuildFile; fileRef = 227C45DF597742109015C820 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.h */; };
+		86332399A0BD4988AF64A256 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.h */ = {isa = PBXBuildFile; fileRef = E5FA4788E5014E42AA02EC1D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.h */; };
+		86CD765EF4DF4C8EABE99ABC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/tri_tri_intersect.cpp */ = {isa = PBXBuildFile; fileRef = 38E1D9D81B7E4A9EBCC82746 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/tri_tri_intersect.cpp */; };
+		871172C460BC4984A77E5835 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.ipp */ = {isa = PBXBuildFile; fileRef = 8B9B97568EA84D60A18C6C48 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.ipp */; };
+		87A1FC5F7D2B485CA453556C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/stripe_patterns.h */ = {isa = PBXBuildFile; fileRef = 1645C97B32E44A3EA7106705 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/stripe_patterns.h */; };
+		881D70B7AA924B109A4F5729 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_point.cpp */ = {isa = PBXBuildFile; fileRef = ADE2C924D7214892B3BDC17E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_point.cpp */; };
+		8874D058B745483F8098AA67 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/flip_geodesics.cpp */ = {isa = PBXBuildFile; fileRef = 74BAFA7EE88845A09FEB4EDB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/flip_geodesics.cpp */; };
+		8B61B439D6EF44F4BF8399CF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/parameterize.cpp */ = {isa = PBXBuildFile; fileRef = D60CB8F4EC4648339AF34D51 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/parameterize.cpp */; };
+		8C77C4A6DF5B4966AA1C92E5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/eigen_interop_helpers.h */ = {isa = PBXBuildFile; fileRef = FBBDE4926A24402CAF4555E1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/eigen_interop_helpers.h */; };
+		8CF022A7D7924D2587EF621C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/uniformize.cpp */ = {isa = PBXBuildFile; fileRef = 9C37857807EB4ACBB1144126 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/uniformize.cpp */; };
+		8FD6599783F34D9581F2D33E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/signpost_intrinsic_triangulation.cpp */ = {isa = PBXBuildFile; fileRef = 1052DAF6B73F46C9800006AA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/signpost_intrinsic_triangulation.cpp */; };
+		919C05F4FAE547D5BF8FE6EE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.h */ = {isa = PBXBuildFile; fileRef = 26E4BBA022F842AEBDA34DF5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.h */; };
+		9528D887FBC441709B8D3158 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.h */ = {isa = PBXBuildFile; fileRef = D9127955145B447784CC592F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.h */; };
+		A08969FA9D5F43BC985C7AE7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/knn.cpp */ = {isa = PBXBuildFile; fileRef = AEE77C233FC84061B134230A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/knn.cpp */; };
+		A35F5BE9C73A45E3A69B1D3A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_geometry_interface.h */ = {isa = PBXBuildFile; fileRef = BE5EF6444D284C92A4F78117 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_geometry_interface.h */; };
+		A435BDC8296D423B84D3785F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_heat_solver.cpp */ = {isa = PBXBuildFile; fileRef = 6191FF3E9049402CAFBAB298 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_heat_solver.cpp */; };
+		A95119AFE77D4B1B82D7F0A2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_frame_geometry.cpp */ = {isa = PBXBuildFile; fileRef = 414D113597524B23868AFF1A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_frame_geometry.cpp */; };
+		A9CB9414F6CD4B3D856F69A1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vector_heat_method.h */ = {isa = PBXBuildFile; fileRef = E59E6F79D5314AADB7F00A16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vector_heat_method.h */; };
+		AA1D107126A04994B77C1A1E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/sample_cloud.cpp */ = {isa = PBXBuildFile; fileRef = 7FD84FB5FC274670903D033E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/sample_cloud.cpp */; };
+		AA56B1F20A5F4DC297497096 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/subdivide.h */ = {isa = PBXBuildFile; fileRef = B2F23D6789D94750A1EB318D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/subdivide.h */; };
+		AABA17525A2747A4B4DF7052 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BDB59BDC4CDB4B2A88EE454F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/CMakeLists.txt */; };
+		AD76848CE90547A1BD9AEDED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/extrinsic_geometry_interface.h */ = {isa = PBXBuildFile; fileRef = 238E56E35E5B492B8CF77106 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/extrinsic_geometry_interface.h */; };
+		B00A27D227E745A0A391859F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.h */ = {isa = PBXBuildFile; fileRef = 02A2B7A3E64E4B5F885986D2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.h */; };
+		B051BEB06A884254977D4696 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/halfedge_factories.cpp */ = {isa = PBXBuildFile; fileRef = B58BCB09BE034AA69D0E43E7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/halfedge_factories.cpp */; };
+		B2AEFAD5B7174D78A964A620 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = 229A7B491BF14B4D9237F51C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/quaternion.cpp */; };
+		B8977B15FBE44F1D878CAEA4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.h */ = {isa = PBXBuildFile; fileRef = 92C1FCD2B29F4CB5A3820BAF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.h */; };
+		BAE8F84D3BDC4C96BF55527C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surgery.cpp */ = {isa = PBXBuildFile; fileRef = 6AC6D07964A8407A805E4392 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surgery.cpp */; };
+		BBF8DC88DF104107A1668442 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.h */ = {isa = PBXBuildFile; fileRef = 6AE3425BE9FD49CCB2A3229D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.h */; };
+		BCB20C02CCFA476684DC1E8A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/extrinsic_geometry_interface.cpp */ = {isa = PBXBuildFile; fileRef = 794616D2A1C0416AA020EC23 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/extrinsic_geometry_interface.cpp */; };
+		BD0E4C67E6D244D6B89B657F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/base_geometry_interface.cpp */ = {isa = PBXBuildFile; fileRef = 853BA360372A4E70ABB2CDCF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/base_geometry_interface.cpp */; };
+		BD0F1A52AB4C48A18605FB35 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_centers.cpp */ = {isa = PBXBuildFile; fileRef = 2D0E7C5B067E45F6A1E092C7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_centers.cpp */; };
+		BE5316BC6CF0468BACAE5D0D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_geometry.cpp */ = {isa = PBXBuildFile; fileRef = 5AA8E741763548078457ABFF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_geometry.cpp */; };
+		C0AE8A9671B647D981BFF58D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_mesh.h */ = {isa = PBXBuildFile; fileRef = 9DCA4DF39D65403A9AC08148 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_mesh.h */; };
+		C53B0448DD4A4181A5319D58 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/common_subdivision.cpp */ = {isa = PBXBuildFile; fileRef = 43C8CE98FF834E7BA0CF800D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/common_subdivision.cpp */; };
+		C784116C67CC48D9A9F60F9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/fast_marching_method.h */ = {isa = PBXBuildFile; fileRef = D73A99567C26492094869ABF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/fast_marching_method.h */; };
+		C8DA4FC3BAC346B6B871E93F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/manifold_surface_mesh.h */ = {isa = PBXBuildFile; fileRef = 08961C2E94E642AE9846C9CE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/manifold_surface_mesh.h */; };
+		CC2512D5C0484EEAB52CC22A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_centers.h */ = {isa = PBXBuildFile; fileRef = 1924DE779C0440959F60EB24 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_centers.h */; };
+		CC87A1D3F5564D57AD1B7002 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/eigenproblem_solvers.cpp */ = {isa = PBXBuildFile; fileRef = 226564C84EBB49589C8601D0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/eigenproblem_solvers.cpp */; };
+		CE41056E262E415EA9306195 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_triangulation.cpp */ = {isa = PBXBuildFile; fileRef = D94FFCD02A0D4567BBB99E70 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_triangulation.cpp */; };
+		D39A2BAC43E84ED49D84E369 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_solvers.cpp */ = {isa = PBXBuildFile; fileRef = 753B1F6BCF7549DF938479FB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_solvers.cpp */; };
+		D85AB487037740EFA4BEAF58 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_mollification.h */ = {isa = PBXBuildFile; fileRef = 195F3FF11D674C7CBF794942 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_mollification.h */; };
+		D8A58BB445A6440088650FBA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mesh_graph_algorithms.cpp */ = {isa = PBXBuildFile; fileRef = DAFA7A59DD634A608D213D12 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mesh_graph_algorithms.cpp */; };
+		DB7A22EEF1EF4ADCB1D40E9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/local_triangulation.cpp */ = {isa = PBXBuildFile; fileRef = 9F77D5E76B15401C945EAA35 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/local_triangulation.cpp */; };
+		DBA8CAAFC0DE46AC82CACDBF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_idt.cpp */ = {isa = PBXBuildFile; fileRef = 27B594F0CA8B4FFEB25B208B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_idt.cpp */; };
+		DDEC83010DC7410FB52733E4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/fast_marching_method.cpp */ = {isa = PBXBuildFile; fileRef = 3FE9006CD7A0443CB007803F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/fast_marching_method.cpp */; };
+		DF617BF4CD814C55B2D09411 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh.cpp */ = {isa = PBXBuildFile; fileRef = 06ECA0741F08462CB0AE2469 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh.cpp */; };
+		E03B118908714CC8B5B2D357 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/poisson_disk_sampler.h */ = {isa = PBXBuildFile; fileRef = 5EFC6E2468DC4A9AA8A84E43 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/poisson_disk_sampler.h */; };
+		E10EE46E38854293A3376142 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.h */ = {isa = PBXBuildFile; fileRef = BD238247DBF4432E9B0D54AE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.h */; };
+		E71CEA437B624D9DA2305293 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/poisson_disk_sampler.cpp */ = {isa = PBXBuildFile; fileRef = A6818581F59B4DBFB6AB89A4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/poisson_disk_sampler.cpp */; };
+		EA903FF0CA704F95A6EA43B6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.ipp */ = {isa = PBXBuildFile; fileRef = 0F9573BC60304AD381E410AD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.ipp */; };
+		ECD03FAD67BD4C53AD56463C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/trace_geodesic.cpp */ = {isa = PBXBuildFile; fileRef = A2F6F0E24EAD420BA336AE74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/trace_geodesic.cpp */; };
+		EDA674F08241449D9B779921 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/disjoint_sets.cpp */ = {isa = PBXBuildFile; fileRef = E7980D79356E4C1D879BB664 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/disjoint_sets.cpp */; };
+		EFCC9EE46E294451BE0A8262 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_idt.h */ = {isa = PBXBuildFile; fileRef = A5CBB1EDBAA64ECFB94A1423 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_idt.h */; };
+		F057143ACAD64E0B9284BE97 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/trace_geodesic.h */ = {isa = PBXBuildFile; fileRef = 4628F1CC4EE144B9B2ADA23D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/trace_geodesic.h */; };
+		F0CDDDBEAC744891B5534155 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/positive_definite_solvers.cpp */ = {isa = PBXBuildFile; fileRef = 5FA5D2D474CA4C1F839975CD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/positive_definite_solvers.cpp */; };
+		F3170FF7DA73430C80FE3EF1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.h */ = {isa = PBXBuildFile; fileRef = 71591D72E5B046B789FE8316 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.h */; };
+		F5C62DD032BB4BCCA6CE7EE0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/transfer_functions.cpp */ = {isa = PBXBuildFile; fileRef = F28F97A7546F4DDEAEC9ADEC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/transfer_functions.cpp */; };
+		F82AF0E3B3A948E1947B3998 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.ipp */ = {isa = PBXBuildFile; fileRef = 06DC7D86D5F14DB7A6913EE3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.ipp */; };
+		FA91C4E78A0F4C729127E150 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/manifold_surface_mesh.cpp */ = {isa = PBXBuildFile; fileRef = 08AE6B1B44D047C2AEAE1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/manifold_surface_mesh.cpp */; };
+		FB9C6E190E704A8A86AE405C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/polygon_soup_mesh.h */ = {isa = PBXBuildFile; fileRef = FB7AA30527E549CEB2BE2D4B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/polygon_soup_mesh.h */; };
+		FBD180B6B48F401189B0C298 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/boundary_first_flattening.h */ = {isa = PBXBuildFile; fileRef = 0F79490811D74B7C8D62DF4C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/boundary_first_flattening.h */; };
+		FD34C79DD19A4DCB8C8EEB03 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.h */ = {isa = PBXBuildFile; fileRef = B84CA5718A4B4D96BEC0FDE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.h */; };
+		FDDC38FE3A44417E8F014DEE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/tufted_laplacian.cpp */ = {isa = PBXBuildFile; fileRef = 9263CBC1C16241179E36461B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/tufted_laplacian.cpp */; };
+		FEFC70A28A9C44CDBBD0803C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_polyhedral_geodesics.h */ = {isa = PBXBuildFile; fileRef = DF0AE2AA15114E769F45C822 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_polyhedral_geodesics.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1771335729A44CC3AAA4F69E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		348260E6510F4C8E945F0FF2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E97FB4131CBF435BB12FC9FD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F7003950E6B842449BCAE650 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		23AB6567FAAB4A05A58C755A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EB0A5D648444AC88FB6869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7077E70BDC03A96C5BF0F722;
+			remoteInfo = ALL_BUILD;
+		};
+		717CDFD82A3D4900BFF53691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EB0A5D648444AC88FB6869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3A3CEA6EE92A188F5F8A62;
+			remoteInfo = ZERO_CHECK;
+		};
+		9816B7ECEF94445789078401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EB0A5D648444AC88FB6869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B422ADB72FABFD06DCDC4A9B;
+			remoteInfo = "geometry-central";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0111895383D247C5930E202D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/remeshing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = remeshing.h; path = include/geometrycentral/surface/remeshing.h; sourceTree = SOURCE_ROOT; };
+		02A2B7A3E64E4B5F885986D2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector3.h; path = include/geometrycentral/utilities/vector3.h; sourceTree = SOURCE_ROOT; };
+		038CFA7961FA4109A99139A3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		03ECA446B1054AC291897C45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/direction_fields.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = direction_fields.h; path = include/geometrycentral/surface/direction_fields.h; sourceTree = SOURCE_ROOT; };
+		061F89B031D14239940FA196 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exact_geodesics.cpp; path = src/surface/exact_geodesics.cpp; sourceTree = SOURCE_ROOT; };
+		06DC7D86D5F14DB7A6913EE3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = surface_mesh.ipp; path = include/geometrycentral/surface/surface_mesh.ipp; sourceTree = SOURCE_ROOT; };
+		06ECA0741F08462CB0AE2469 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surface_mesh.cpp; path = src/surface/surface_mesh.cpp; sourceTree = SOURCE_ROOT; };
+		08961C2E94E642AE9846C9CE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/manifold_surface_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = manifold_surface_mesh.h; path = include/geometrycentral/surface/manifold_surface_mesh.h; sourceTree = SOURCE_ROOT; };
+		08AE6B1B44D047C2AEAE1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/manifold_surface_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = manifold_surface_mesh.cpp; path = src/surface/manifold_surface_mesh.cpp; sourceTree = SOURCE_ROOT; };
+		0AD8D53C223F451CB27802C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/heat_method_distance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = heat_method_distance.h; path = include/geometrycentral/surface/heat_method_distance.h; sourceTree = SOURCE_ROOT; };
+		0F79490811D74B7C8D62DF4C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/boundary_first_flattening.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = boundary_first_flattening.h; path = include/geometrycentral/surface/boundary_first_flattening.h; sourceTree = SOURCE_ROOT; };
+		0F9573BC60304AD381E410AD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = barycentric_coordinate_helpers.ipp; path = include/geometrycentral/surface/barycentric_coordinate_helpers.ipp; sourceTree = SOURCE_ROOT; };
+		1052DAF6B73F46C9800006AA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/signpost_intrinsic_triangulation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = signpost_intrinsic_triangulation.cpp; path = src/surface/signpost_intrinsic_triangulation.cpp; sourceTree = SOURCE_ROOT; };
+		123B8CDFC05B44DAAAA60BC0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/heat_method_distance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = heat_method_distance.cpp; path = src/surface/heat_method_distance.cpp; sourceTree = SOURCE_ROOT; };
+		12C5D86656A34C0F8FC2EFEE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vector_heat_method.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector_heat_method.cpp; path = src/surface/vector_heat_method.cpp; sourceTree = SOURCE_ROOT; };
+		1645C97B32E44A3EA7106705 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/stripe_patterns.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stripe_patterns.h; path = include/geometrycentral/surface/stripe_patterns.h; sourceTree = SOURCE_ROOT; };
+		1924DE779C0440959F60EB24 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_centers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = surface_centers.h; path = include/geometrycentral/surface/surface_centers.h; sourceTree = SOURCE_ROOT; };
+		195F3FF11D674C7CBF794942 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_mollification.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intrinsic_mollification.h; path = include/geometrycentral/surface/intrinsic_mollification.h; sourceTree = SOURCE_ROOT; };
+		1B4C5F24DF494BD1A1C312ED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/meshio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = meshio.h; path = include/geometrycentral/surface/meshio.h; sourceTree = SOURCE_ROOT; };
+		1DE3938F3368421E860C52B4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_algebra_utilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linear_algebra_utilities.cpp; path = src/numerical/linear_algebra_utilities.cpp; sourceTree = SOURCE_ROOT; };
+		226564C84EBB49589C8601D0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/eigenproblem_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eigenproblem_solvers.cpp; path = src/numerical/eigenproblem_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		227C45DF597742109015C820 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = edge_length_geometry.h; path = include/geometrycentral/surface/edge_length_geometry.h; sourceTree = SOURCE_ROOT; };
+		229A7B491BF14B4D9237F51C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = src/utilities/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		238E56E35E5B492B8CF77106 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/extrinsic_geometry_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = extrinsic_geometry_interface.h; path = include/geometrycentral/surface/extrinsic_geometry_interface.h; sourceTree = SOURCE_ROOT; };
+		23C5BDE51DD74178A3446FF4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/normal_coordinates.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normal_coordinates.cpp; path = src/surface/normal_coordinates.cpp; sourceTree = SOURCE_ROOT; };
+		2561A315829F4427B0CF7A57 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/direction_fields.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = direction_fields.cpp; path = src/surface/direction_fields.cpp; sourceTree = SOURCE_ROOT; };
+		26E4BBA022F842AEBDA34DF5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = surface_point.h; path = include/geometrycentral/surface/surface_point.h; sourceTree = SOURCE_ROOT; };
+		27B594F0CA8B4FFEB25B208B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_idt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simple_idt.cpp; path = src/surface/simple_idt.cpp; sourceTree = SOURCE_ROOT; };
+		2AEC219E1EC54959ACA5F28B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = rich_surface_mesh_data.ipp; path = include/geometrycentral/surface/rich_surface_mesh_data.ipp; sourceTree = SOURCE_ROOT; };
+		2D0E7C5B067E45F6A1E092C7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_centers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surface_centers.cpp; path = src/surface/surface_centers.cpp; sourceTree = SOURCE_ROOT; };
+		32C1823B360047CA95CCCAC9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curve.h; path = include/geometrycentral/utilities/curve.h; sourceTree = SOURCE_ROOT; };
+		38E1D9D81B7E4A9EBCC82746 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/tri_tri_intersect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tri_tri_intersect.cpp; path = src/utilities/tri_tri_intersect.cpp; sourceTree = SOURCE_ROOT; };
+		3BFA0CD07A5F4ED39C92C2F7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/neighborhoods.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = neighborhoods.cpp; path = src/pointcloud/neighborhoods.cpp; sourceTree = SOURCE_ROOT; };
+		3CE56C1E0ECC4F8B91AD0416 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exact_geodesics.h; path = include/geometrycentral/surface/exact_geodesics.h; sourceTree = SOURCE_ROOT; };
+		3FE9006CD7A0443CB007803F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/fast_marching_method.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_marching_method.cpp; path = src/surface/fast_marching_method.cpp; sourceTree = SOURCE_ROOT; };
+		40E03D0167294A23B6B64AA5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/meshio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = meshio.cpp; path = src/surface/meshio.cpp; sourceTree = SOURCE_ROOT; };
+		40EBDD7CF5934F4FAF34D42F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = linear_algebra_utilities.ipp; path = include/geometrycentral/numerical/linear_algebra_utilities.ipp; sourceTree = SOURCE_ROOT; };
+		410329ED50444CAB9A190D9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/rich_surface_mesh_data.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rich_surface_mesh_data.cpp; path = src/surface/rich_surface_mesh_data.cpp; sourceTree = SOURCE_ROOT; };
+		414D113597524B23868AFF1A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_frame_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_position_frame_geometry.cpp; path = src/pointcloud/point_position_frame_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		41A6C528DD7F4B1A946C19DA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/remeshing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remeshing.cpp; path = src/surface/remeshing.cpp; sourceTree = SOURCE_ROOT; };
+		41BF53E3FE57427E830DBBF1 /* geometry-central */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libgeometry-central.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429E37880ECE441B8F22BA17 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_algebra_utilities.h; path = include/geometrycentral/numerical/linear_algebra_utilities.h; sourceTree = SOURCE_ROOT; };
+		43C8CE98FF834E7BA0CF800D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/common_subdivision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common_subdivision.cpp; path = src/surface/common_subdivision.cpp; sourceTree = SOURCE_ROOT; };
+		4628F1CC4EE144B9B2ADA23D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/trace_geodesic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trace_geodesic.h; path = include/geometrycentral/surface/trace_geodesic.h; sourceTree = SOURCE_ROOT; };
+		46EDCB68FA674ED19499D019 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/parameterize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterize.h; path = include/geometrycentral/surface/parameterize.h; sourceTree = SOURCE_ROOT; };
+		535F10F8AB844620AB3A68A7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/suitesparse_utilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = suitesparse_utilities.cpp; path = src/numerical/suitesparse_utilities.cpp; sourceTree = SOURCE_ROOT; };
+		53A986661A104289B2E3DCE4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_logic_templates.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = halfedge_logic_templates.ipp; path = include/geometrycentral/surface/halfedge_logic_templates.ipp; sourceTree = SOURCE_ROOT; };
+		557040C913D44369B9CBB619 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mutation_manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mutation_manager.cpp; path = src/surface/mutation_manager.cpp; sourceTree = SOURCE_ROOT; };
+		560D75E797954A1FAF3A8958 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rich_surface_mesh_data.h; path = include/geometrycentral/surface/rich_surface_mesh_data.h; sourceTree = SOURCE_ROOT; };
+		56E1BAA8216742D98F72DA45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh_factories.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surface_mesh_factories.cpp; path = src/surface/surface_mesh_factories.cpp; sourceTree = SOURCE_ROOT; };
+		57275E46A9E34107A721FCB8 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/combining_hash_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combining_hash_functions.h; path = include/geometrycentral/utilities/combining_hash_functions.h; sourceTree = SOURCE_ROOT; };
+		5AA8E741763548078457ABFF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_position_geometry.cpp; path = src/pointcloud/point_position_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		5AAE152EF20C41AFA96D0BED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mesh_data.ipp; path = include/geometrycentral/utilities/mesh_data.ipp; sourceTree = SOURCE_ROOT; };
+		5C35AA83A59B497C9ACA41C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/knn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = knn.h; path = include/geometrycentral/utilities/knn.h; sourceTree = SOURCE_ROOT; };
+		5D11AFA333EA4BAEBBAD959D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = vertex_position_geometry.ipp; path = include/geometrycentral/surface/vertex_position_geometry.ipp; sourceTree = SOURCE_ROOT; };
+		5EFC6E2468DC4A9AA8A84E43 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/poisson_disk_sampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = poisson_disk_sampler.h; path = include/geometrycentral/surface/poisson_disk_sampler.h; sourceTree = SOURCE_ROOT; };
+		5FA5D2D474CA4C1F839975CD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/positive_definite_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = positive_definite_solvers.cpp; path = src/numerical/positive_definite_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		5FB83C5F80B441D596FD3C83 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/quadric_error_simplification.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadric_error_simplification.cpp; path = src/surface/quadric_error_simplification.cpp; sourceTree = SOURCE_ROOT; };
+		6191FF3E9049402CAFBAB298 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_heat_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_cloud_heat_solver.cpp; path = src/pointcloud/point_cloud_heat_solver.cpp; sourceTree = SOURCE_ROOT; };
+		63ED8405319C457A96D35D16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dependent_quantity.h; path = include/geometrycentral/utilities/dependent_quantity.h; sourceTree = SOURCE_ROOT; };
+		67BB1011AB77419F937BC393 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_cloud_io.cpp; path = src/pointcloud/point_cloud_io.cpp; sourceTree = SOURCE_ROOT; };
+		67CE3D0D63624E3DA1C711F5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = exact_geodesic_helpers.ipp; path = include/geometrycentral/surface/exact_geodesic_helpers.ipp; sourceTree = SOURCE_ROOT; };
+		6AC6D07964A8407A805E4392 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surgery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surgery.cpp; path = src/surface/surgery.cpp; sourceTree = SOURCE_ROOT; };
+		6AE3425BE9FD49CCB2A3229D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = barycentric_vector.h; path = include/geometrycentral/surface/barycentric_vector.h; sourceTree = SOURCE_ROOT; };
+		6F64A0478ADE4B10AA167422 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_polygon_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simple_polygon_mesh.h; path = include/geometrycentral/surface/simple_polygon_mesh.h; sourceTree = SOURCE_ROOT; };
+		6FD2BE3E03734DC3BB2F3201 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/detect_symmetry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = detect_symmetry.h; path = include/geometrycentral/surface/detect_symmetry.h; sourceTree = SOURCE_ROOT; };
+		71591D72E5B046B789FE8316 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfedge_element_types.h; path = include/geometrycentral/surface/halfedge_element_types.h; sourceTree = SOURCE_ROOT; };
+		7338588AE1FF40768B27A054 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = vector2.ipp; path = include/geometrycentral/utilities/vector2.ipp; sourceTree = SOURCE_ROOT; };
+		749C6AE15D6340D69187AB0F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/integer_coordinates_intrinsic_triangulation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = integer_coordinates_intrinsic_triangulation.cpp; path = src/surface/integer_coordinates_intrinsic_triangulation.cpp; sourceTree = SOURCE_ROOT; };
+		74BAFA7EE88845A09FEB4EDB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/flip_geodesics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flip_geodesics.cpp; path = src/surface/flip_geodesics.cpp; sourceTree = SOURCE_ROOT; };
+		753B1F6BCF7549DF938479FB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linear_solvers.cpp; path = src/numerical/linear_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		794616D2A1C0416AA020EC23 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/extrinsic_geometry_interface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extrinsic_geometry_interface.cpp; path = src/surface/extrinsic_geometry_interface.cpp; sourceTree = SOURCE_ROOT; };
+		79F401B6901D440E9D5859C6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/disjoint_sets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disjoint_sets.h; path = include/geometrycentral/utilities/disjoint_sets.h; sourceTree = SOURCE_ROOT; };
+		7FD84FB5FC274670903D033E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/sample_cloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sample_cloud.cpp; path = src/pointcloud/sample_cloud.cpp; sourceTree = SOURCE_ROOT; };
+		823C9C6216C342EF99B616FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/suitesparse_utilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = suitesparse_utilities.h; path = include/geometrycentral/numerical/suitesparse_utilities.h; sourceTree = SOURCE_ROOT; };
+		853BA360372A4E70ABB2CDCF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/base_geometry_interface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base_geometry_interface.cpp; path = src/surface/base_geometry_interface.cpp; sourceTree = SOURCE_ROOT; };
+		89A44A7B7BAA46278EAA4E49 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_normal_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_position_normal_geometry.cpp; path = src/pointcloud/point_position_normal_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		8B9B97568EA84D60A18C6C48 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = halfedge_element_types.ipp; path = include/geometrycentral/surface/halfedge_element_types.ipp; sourceTree = SOURCE_ROOT; };
+		8E6B858C04E4433D9299CDDE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = barycentric_vector.ipp; path = include/geometrycentral/surface/barycentric_vector.ipp; sourceTree = SOURCE_ROOT; };
+		8EEF70E871E24EEC85AB323C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_solvers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_solvers.h; path = include/geometrycentral/numerical/linear_solvers.h; sourceTree = SOURCE_ROOT; };
+		91156BC9A591495198DEADAE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/qr_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qr_solvers.cpp; path = src/numerical/qr_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		9147E7F56DE74E3BB9B09296 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_factories.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfedge_factories.h; path = include/geometrycentral/surface/halfedge_factories.h; sourceTree = SOURCE_ROOT; };
+		9263CBC1C16241179E36461B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/tufted_laplacian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tufted_laplacian.cpp; path = src/surface/tufted_laplacian.cpp; sourceTree = SOURCE_ROOT; };
+		92C1FCD2B29F4CB5A3820BAF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exact_geodesic_helpers.h; path = include/geometrycentral/surface/exact_geodesic_helpers.h; sourceTree = SOURCE_ROOT; };
+		96157D3E2BDF4BC19CB1266C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quaternion.h; path = include/geometrycentral/utilities/quaternion.h; sourceTree = SOURCE_ROOT; };
+		98BAA9C7AB4E4EB9ADD527B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intersection.cpp; path = src/surface/intersection.cpp; sourceTree = SOURCE_ROOT; };
+		98C48AB465FF4A549A644B68 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = vector3.ipp; path = include/geometrycentral/utilities/vector3.ipp; sourceTree = SOURCE_ROOT; };
+		9BCE12A72ED64F4AA9727802 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_polygon_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simple_polygon_mesh.cpp; path = src/surface/simple_polygon_mesh.cpp; sourceTree = SOURCE_ROOT; };
+		9C37857807EB4ACBB1144126 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/uniformize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uniformize.cpp; path = src/surface/uniformize.cpp; sourceTree = SOURCE_ROOT; };
+		9CC4A462E1BD4004BBB160A0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/transfer_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = transfer_functions.h; path = include/geometrycentral/surface/transfer_functions.h; sourceTree = SOURCE_ROOT; };
+		9DCA4DF39D65403A9AC08148 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfedge_mesh.h; path = include/geometrycentral/surface/halfedge_mesh.h; sourceTree = SOURCE_ROOT; };
+		9E532F666C1B4E97AE79DD7B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = point_cloud.cpp; path = src/pointcloud/point_cloud.cpp; sourceTree = SOURCE_ROOT; };
+		9F77D5E76B15401C945EAA35 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/local_triangulation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = local_triangulation.cpp; path = src/pointcloud/local_triangulation.cpp; sourceTree = SOURCE_ROOT; };
+		A2F6F0E24EAD420BA336AE74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/trace_geodesic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = trace_geodesic.cpp; path = src/surface/trace_geodesic.cpp; sourceTree = SOURCE_ROOT; };
+		A5CBB1EDBAA64ECFB94A1423 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_idt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simple_idt.h; path = include/geometrycentral/surface/simple_idt.h; sourceTree = SOURCE_ROOT; };
+		A6818581F59B4DBFB6AB89A4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/poisson_disk_sampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = poisson_disk_sampler.cpp; path = src/surface/poisson_disk_sampler.cpp; sourceTree = SOURCE_ROOT; };
+		A829B956810B4A588C786A97 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/quadric_error_simplification.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quadric_error_simplification.h; path = include/geometrycentral/surface/quadric_error_simplification.h; sourceTree = SOURCE_ROOT; };
+		A97981F5C2CA495AA9F64804 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/uniformize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uniformize.h; path = include/geometrycentral/surface/uniformize.h; sourceTree = SOURCE_ROOT; };
+		ADE2C924D7214892B3BDC17E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surface_point.cpp; path = src/surface/surface_point.cpp; sourceTree = SOURCE_ROOT; };
+		AEE77C233FC84061B134230A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/knn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = knn.cpp; path = src/utilities/knn.cpp; sourceTree = SOURCE_ROOT; };
+		AF510BC1A5C346EBAF65D673 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/square_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = square_solvers.cpp; path = src/numerical/square_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		B2F23D6789D94750A1EB318D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/subdivide.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = subdivide.h; path = include/geometrycentral/surface/subdivide.h; sourceTree = SOURCE_ROOT; };
+		B4503AA725A74D9DB939D9AB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/elementary_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = elementary_geometry.cpp; path = src/utilities/elementary_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		B58BCB09BE034AA69D0E43E7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/halfedge_factories.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = halfedge_factories.cpp; path = src/surface/halfedge_factories.cpp; sourceTree = SOURCE_ROOT; };
+		B7179F4A6A3C45D0BBAC1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = surface_point.ipp; path = include/geometrycentral/surface/surface_point.ipp; sourceTree = SOURCE_ROOT; };
+		B7354FEE03FB41D6A1F8C306 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/timing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timing.h; path = include/geometrycentral/utilities/timing.h; sourceTree = SOURCE_ROOT; };
+		B7D571F065F24C4497BF309E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_geometry_interface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intrinsic_geometry_interface.cpp; path = src/surface/intrinsic_geometry_interface.cpp; sourceTree = SOURCE_ROOT; };
+		B84CA5718A4B4D96BEC0FDE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector2.h; path = include/geometrycentral/utilities/vector2.h; sourceTree = SOURCE_ROOT; };
+		BA1325FF9BB841A187099421 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/geodesic_centroidal_voronoi_tessellation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = geodesic_centroidal_voronoi_tessellation.cpp; path = src/surface/geodesic_centroidal_voronoi_tessellation.cpp; sourceTree = SOURCE_ROOT; };
+		BD238247DBF4432E9B0D54AE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = surface_mesh.h; path = include/geometrycentral/surface/surface_mesh.h; sourceTree = SOURCE_ROOT; };
+		BDB59BDC4CDB4B2A88EE454F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BE5EF6444D284C92A4F78117 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_geometry_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intrinsic_geometry_interface.h; path = include/geometrycentral/surface/intrinsic_geometry_interface.h; sourceTree = SOURCE_ROOT; };
+		BEB749DCD23B47BABC11AC32 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/edge_length_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edge_length_geometry.cpp; path = src/surface/edge_length_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		C399810BAC974DF8B55FA22B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = curve.ipp; path = include/geometrycentral/utilities/curve.ipp; sourceTree = SOURCE_ROOT; };
+		C47E98A0EB9F482DBA55F540 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_data.h; path = include/geometrycentral/utilities/mesh_data.h; sourceTree = SOURCE_ROOT; };
+		C6BEBCA36D84495A85E25744 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/base_geometry_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base_geometry_interface.h; path = include/geometrycentral/surface/base_geometry_interface.h; sourceTree = SOURCE_ROOT; };
+		CF8EC9CF5A5A4D79AE062909 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surgery.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = surgery.h; path = include/geometrycentral/surface/surgery.h; sourceTree = SOURCE_ROOT; };
+		D60CB8F4EC4648339AF34D51 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/parameterize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterize.cpp; path = src/surface/parameterize.cpp; sourceTree = SOURCE_ROOT; };
+		D73A99567C26492094869ABF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/fast_marching_method.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fast_marching_method.h; path = include/geometrycentral/surface/fast_marching_method.h; sourceTree = SOURCE_ROOT; };
+		D773D69C04924CEE9DFC733D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = dependent_quantity.ipp; path = include/geometrycentral/utilities/dependent_quantity.ipp; sourceTree = SOURCE_ROOT; };
+		D9127955145B447784CC592F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = barycentric_coordinate_helpers.h; path = include/geometrycentral/surface/barycentric_coordinate_helpers.h; sourceTree = SOURCE_ROOT; };
+		D94FFCD02A0D4567BBB99E70 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_triangulation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intrinsic_triangulation.cpp; path = src/surface/intrinsic_triangulation.cpp; sourceTree = SOURCE_ROOT; };
+		DAFA7A59DD634A608D213D12 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mesh_graph_algorithms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh_graph_algorithms.cpp; path = src/surface/mesh_graph_algorithms.cpp; sourceTree = SOURCE_ROOT; };
+		DF0AE2AA15114E769F45C822 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_polyhedral_geodesics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exact_polyhedral_geodesics.h; path = include/geometrycentral/surface/exact_polyhedral_geodesics.h; sourceTree = SOURCE_ROOT; };
+		DFA763DB54764D79874C1F01 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/subdivide.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = subdivide.cpp; path = src/surface/subdivide.cpp; sourceTree = SOURCE_ROOT; };
+		E01B4C3A6E8C487CBF9645D5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vertex_position_geometry.h; path = include/geometrycentral/surface/vertex_position_geometry.h; sourceTree = SOURCE_ROOT; };
+		E1E45AF0D63A43B9A8645182 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesic_helpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exact_geodesic_helpers.cpp; path = src/surface/exact_geodesic_helpers.cpp; sourceTree = SOURCE_ROOT; };
+		E241CDB91B494F629689A2EA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_graph_algorithms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_graph_algorithms.h; path = include/geometrycentral/surface/mesh_graph_algorithms.h; sourceTree = SOURCE_ROOT; };
+		E30B67D3855E4F2FA3FD95B2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_ray_tracer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_ray_tracer.h; path = include/geometrycentral/surface/mesh_ray_tracer.h; sourceTree = SOURCE_ROOT; };
+		E43F430ADA524836B7E55D47 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_polyhedral_geodesics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exact_polyhedral_geodesics.cpp; path = src/surface/exact_polyhedral_geodesics.cpp; sourceTree = SOURCE_ROOT; };
+		E59E6F79D5314AADB7F00A16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vector_heat_method.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector_heat_method.h; path = include/geometrycentral/surface/vector_heat_method.h; sourceTree = SOURCE_ROOT; };
+		E5FA4788E5014E42AA02EC1D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = signpost_intrinsic_triangulation.h; path = include/geometrycentral/surface/signpost_intrinsic_triangulation.h; sourceTree = SOURCE_ROOT; };
+		E7980D79356E4C1D879BB664 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/disjoint_sets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disjoint_sets.cpp; path = src/utilities/disjoint_sets.cpp; sourceTree = SOURCE_ROOT; };
+		EB9277AB34324F5EAE0D07B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/embedded_geometry_interface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = embedded_geometry_interface.cpp; path = src/surface/embedded_geometry_interface.cpp; sourceTree = SOURCE_ROOT; };
+		EBDB8D9529F64E588FFBCD11 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/utilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utilities.cpp; path = src/utilities/utilities.cpp; sourceTree = SOURCE_ROOT; };
+		ED19844CC33349D9A0634BC2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = signpost_intrinsic_triangulation.ipp; path = include/geometrycentral/surface/signpost_intrinsic_triangulation.ipp; sourceTree = SOURCE_ROOT; };
+		F0FEECFD18B84AABAF27F016 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.ipp */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = edge_length_geometry.ipp; path = include/geometrycentral/surface/edge_length_geometry.ipp; sourceTree = SOURCE_ROOT; };
+		F1BAA32D134145F2A2E28A19 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_mollification.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intrinsic_mollification.cpp; path = src/surface/intrinsic_mollification.cpp; sourceTree = SOURCE_ROOT; };
+		F28F97A7546F4DDEAEC9ADEC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/transfer_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = transfer_functions.cpp; path = src/surface/transfer_functions.cpp; sourceTree = SOURCE_ROOT; };
+		F87021D1C9E846BFB5D15783 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vertex_position_geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vertex_position_geometry.cpp; path = src/surface/vertex_position_geometry.cpp; sourceTree = SOURCE_ROOT; };
+		F9A1D8756A3A464D9EB0E7CA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/stripe_patterns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stripe_patterns.cpp; path = src/surface/stripe_patterns.cpp; sourceTree = SOURCE_ROOT; };
+		FA3977E9F822431C8935CED2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/utilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utilities.h; path = include/geometrycentral/utilities/utilities.h; sourceTree = SOURCE_ROOT; };
+		FB7AA30527E549CEB2BE2D4B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/polygon_soup_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polygon_soup_mesh.h; path = include/geometrycentral/surface/polygon_soup_mesh.h; sourceTree = SOURCE_ROOT; };
+		FBBDE4926A24402CAF4555E1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/eigen_interop_helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eigen_interop_helpers.h; path = include/geometrycentral/utilities/eigen_interop_helpers.h; sourceTree = SOURCE_ROOT; };
+		FC311F211E1F41758367D508 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/boundary_first_flattening.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = boundary_first_flattening.cpp; path = src/surface/boundary_first_flattening.cpp; sourceTree = SOURCE_ROOT; };
+		FCCF90F360F64A86AEE88CE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/geodesic_centroidal_voronoi_tessellation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geodesic_centroidal_voronoi_tessellation.h; path = include/geometrycentral/surface/geodesic_centroidal_voronoi_tessellation.h; sourceTree = SOURCE_ROOT; };
+		FE4AE0A8CEDE4B79B9B341DF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/embedded_geometry_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = embedded_geometry_interface.h; path = include/geometrycentral/surface/embedded_geometry_interface.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EA64103AD648CA8311348C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160A5957EF5A43DA8B286008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47D097B8B6684C5688025B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54FD2BE9365481896CF5CB9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				226564C84EBB49589C8601D0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/eigenproblem_solvers.cpp */,
+				1DE3938F3368421E860C52B4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_algebra_utilities.cpp */,
+				753B1F6BCF7549DF938479FB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_solvers.cpp */,
+				5FA5D2D474CA4C1F839975CD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/positive_definite_solvers.cpp */,
+				91156BC9A591495198DEADAE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/qr_solvers.cpp */,
+				AF510BC1A5C346EBAF65D673 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/square_solvers.cpp */,
+				535F10F8AB844620AB3A68A7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/suitesparse_utilities.cpp */,
+				9F77D5E76B15401C945EAA35 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/local_triangulation.cpp */,
+				3BFA0CD07A5F4ED39C92C2F7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/neighborhoods.cpp */,
+				9E532F666C1B4E97AE79DD7B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud.cpp */,
+				6191FF3E9049402CAFBAB298 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_heat_solver.cpp */,
+				67BB1011AB77419F937BC393 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_io.cpp */,
+				414D113597524B23868AFF1A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_frame_geometry.cpp */,
+				5AA8E741763548078457ABFF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_geometry.cpp */,
+				89A44A7B7BAA46278EAA4E49 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_normal_geometry.cpp */,
+				7FD84FB5FC274670903D033E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/sample_cloud.cpp */,
+				853BA360372A4E70ABB2CDCF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/base_geometry_interface.cpp */,
+				FC311F211E1F41758367D508 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/boundary_first_flattening.cpp */,
+				43C8CE98FF834E7BA0CF800D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/common_subdivision.cpp */,
+				2561A315829F4427B0CF7A57 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/direction_fields.cpp */,
+				BEB749DCD23B47BABC11AC32 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/edge_length_geometry.cpp */,
+				EB9277AB34324F5EAE0D07B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/embedded_geometry_interface.cpp */,
+				E1E45AF0D63A43B9A8645182 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesic_helpers.cpp */,
+				061F89B031D14239940FA196 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesics.cpp */,
+				E43F430ADA524836B7E55D47 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_polyhedral_geodesics.cpp */,
+				794616D2A1C0416AA020EC23 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/extrinsic_geometry_interface.cpp */,
+				3FE9006CD7A0443CB007803F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/fast_marching_method.cpp */,
+				74BAFA7EE88845A09FEB4EDB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/flip_geodesics.cpp */,
+				BA1325FF9BB841A187099421 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/geodesic_centroidal_voronoi_tessellation.cpp */,
+				B58BCB09BE034AA69D0E43E7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/halfedge_factories.cpp */,
+				123B8CDFC05B44DAAAA60BC0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/heat_method_distance.cpp */,
+				749C6AE15D6340D69187AB0F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/integer_coordinates_intrinsic_triangulation.cpp */,
+				98BAA9C7AB4E4EB9ADD527B1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intersection.cpp */,
+				B7D571F065F24C4497BF309E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_geometry_interface.cpp */,
+				F1BAA32D134145F2A2E28A19 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_mollification.cpp */,
+				D94FFCD02A0D4567BBB99E70 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_triangulation.cpp */,
+				08AE6B1B44D047C2AEAE1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/manifold_surface_mesh.cpp */,
+				DAFA7A59DD634A608D213D12 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mesh_graph_algorithms.cpp */,
+				40E03D0167294A23B6B64AA5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/meshio.cpp */,
+				557040C913D44369B9CBB619 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mutation_manager.cpp */,
+				23C5BDE51DD74178A3446FF4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/normal_coordinates.cpp */,
+				D60CB8F4EC4648339AF34D51 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/parameterize.cpp */,
+				A6818581F59B4DBFB6AB89A4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/poisson_disk_sampler.cpp */,
+				5FB83C5F80B441D596FD3C83 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/quadric_error_simplification.cpp */,
+				41A6C528DD7F4B1A946C19DA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/remeshing.cpp */,
+				410329ED50444CAB9A190D9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/rich_surface_mesh_data.cpp */,
+				1052DAF6B73F46C9800006AA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/signpost_intrinsic_triangulation.cpp */,
+				27B594F0CA8B4FFEB25B208B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_idt.cpp */,
+				9BCE12A72ED64F4AA9727802 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_polygon_mesh.cpp */,
+				F9A1D8756A3A464D9EB0E7CA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/stripe_patterns.cpp */,
+				DFA763DB54764D79874C1F01 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/subdivide.cpp */,
+				2D0E7C5B067E45F6A1E092C7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_centers.cpp */,
+				06ECA0741F08462CB0AE2469 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh.cpp */,
+				56E1BAA8216742D98F72DA45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh_factories.cpp */,
+				ADE2C924D7214892B3BDC17E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_point.cpp */,
+				6AC6D07964A8407A805E4392 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surgery.cpp */,
+				A2F6F0E24EAD420BA336AE74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/trace_geodesic.cpp */,
+				F28F97A7546F4DDEAEC9ADEC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/transfer_functions.cpp */,
+				9263CBC1C16241179E36461B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/tufted_laplacian.cpp */,
+				9C37857807EB4ACBB1144126 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/uniformize.cpp */,
+				12C5D86656A34C0F8FC2EFEE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vector_heat_method.cpp */,
+				F87021D1C9E846BFB5D15783 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vertex_position_geometry.cpp */,
+				E7980D79356E4C1D879BB664 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/disjoint_sets.cpp */,
+				B4503AA725A74D9DB939D9AB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/elementary_geometry.cpp */,
+				AEE77C233FC84061B134230A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/knn.cpp */,
+				229A7B491BF14B4D9237F51C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/quaternion.cpp */,
+				38E1D9D81B7E4A9EBCC82746 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/tri_tri_intersect.cpp */,
+				EBDB8D9529F64E588FFBCD11 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/utilities.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A75B160905544DE9B256782D /* geometry-central */ = {
+			isa = PBXGroup;
+			children = (
+				A54FD2BE9365481896CF5CB9 /* Source Files */,
+				DD9DD5416E5B42548ADF2C7F /* Header Files */,
+				40EBDD7CF5934F4FAF34D42F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.ipp */,
+				0F9573BC60304AD381E410AD /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.ipp */,
+				8E6B858C04E4433D9299CDDE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.ipp */,
+				F0FEECFD18B84AABAF27F016 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.ipp */,
+				67CE3D0D63624E3DA1C711F5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.ipp */,
+				8B9B97568EA84D60A18C6C48 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.ipp */,
+				53A986661A104289B2E3DCE4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_logic_templates.ipp */,
+				2AEC219E1EC54959ACA5F28B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.ipp */,
+				ED19844CC33349D9A0634BC2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.ipp */,
+				06DC7D86D5F14DB7A6913EE3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.ipp */,
+				B7179F4A6A3C45D0BBAC1D7D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.ipp */,
+				5D11AFA333EA4BAEBBAD959D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.ipp */,
+				C399810BAC974DF8B55FA22B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.ipp */,
+				D773D69C04924CEE9DFC733D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.ipp */,
+				5AAE152EF20C41AFA96D0BED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.ipp */,
+				7338588AE1FF40768B27A054 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.ipp */,
+				98C48AB465FF4A549A644B68 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.ipp */,
+				BDB59BDC4CDB4B2A88EE454F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/CMakeLists.txt */,
+			);
+			name = "geometry-central";
+			sourceTree = "<group>";
+		};
+		B78F4B32DF774E75B57E5BE8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C5957A7D1CC24F858B59BAD9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B78F4B32DF774E75B57E5BE8 /* CMake Rules */,
+				038CFA7961FA4109A99139A3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DD9DD5416E5B42548ADF2C7F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				429E37880ECE441B8F22BA17 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_algebra_utilities.h */,
+				8EEF70E871E24EEC85AB323C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/linear_solvers.h */,
+				823C9C6216C342EF99B616FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/numerical/suitesparse_utilities.h */,
+				D9127955145B447784CC592F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_coordinate_helpers.h */,
+				6AE3425BE9FD49CCB2A3229D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/barycentric_vector.h */,
+				C6BEBCA36D84495A85E25744 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/base_geometry_interface.h */,
+				0F79490811D74B7C8D62DF4C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/boundary_first_flattening.h */,
+				6FD2BE3E03734DC3BB2F3201 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/detect_symmetry.h */,
+				03ECA446B1054AC291897C45 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/direction_fields.h */,
+				227C45DF597742109015C820 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/edge_length_geometry.h */,
+				FE4AE0A8CEDE4B79B9B341DF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/embedded_geometry_interface.h */,
+				92C1FCD2B29F4CB5A3820BAF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesic_helpers.h */,
+				3CE56C1E0ECC4F8B91AD0416 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_geodesics.h */,
+				DF0AE2AA15114E769F45C822 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/exact_polyhedral_geodesics.h */,
+				238E56E35E5B492B8CF77106 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/extrinsic_geometry_interface.h */,
+				D73A99567C26492094869ABF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/fast_marching_method.h */,
+				FCCF90F360F64A86AEE88CE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/geodesic_centroidal_voronoi_tessellation.h */,
+				71591D72E5B046B789FE8316 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_element_types.h */,
+				9147E7F56DE74E3BB9B09296 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_factories.h */,
+				9DCA4DF39D65403A9AC08148 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/halfedge_mesh.h */,
+				0AD8D53C223F451CB27802C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/heat_method_distance.h */,
+				BE5EF6444D284C92A4F78117 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_geometry_interface.h */,
+				195F3FF11D674C7CBF794942 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/intrinsic_mollification.h */,
+				08961C2E94E642AE9846C9CE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/manifold_surface_mesh.h */,
+				E241CDB91B494F629689A2EA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_graph_algorithms.h */,
+				E30B67D3855E4F2FA3FD95B2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/mesh_ray_tracer.h */,
+				1B4C5F24DF494BD1A1C312ED /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/meshio.h */,
+				46EDCB68FA674ED19499D019 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/parameterize.h */,
+				5EFC6E2468DC4A9AA8A84E43 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/poisson_disk_sampler.h */,
+				FB7AA30527E549CEB2BE2D4B /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/polygon_soup_mesh.h */,
+				A829B956810B4A588C786A97 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/quadric_error_simplification.h */,
+				0111895383D247C5930E202D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/remeshing.h */,
+				560D75E797954A1FAF3A8958 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/rich_surface_mesh_data.h */,
+				E5FA4788E5014E42AA02EC1D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/signpost_intrinsic_triangulation.h */,
+				A5CBB1EDBAA64ECFB94A1423 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_idt.h */,
+				6F64A0478ADE4B10AA167422 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/simple_polygon_mesh.h */,
+				1645C97B32E44A3EA7106705 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/stripe_patterns.h */,
+				B2F23D6789D94750A1EB318D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/subdivide.h */,
+				1924DE779C0440959F60EB24 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_centers.h */,
+				BD238247DBF4432E9B0D54AE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_mesh.h */,
+				26E4BBA022F842AEBDA34DF5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surface_point.h */,
+				CF8EC9CF5A5A4D79AE062909 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/surgery.h */,
+				4628F1CC4EE144B9B2ADA23D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/trace_geodesic.h */,
+				9CC4A462E1BD4004BBB160A0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/transfer_functions.h */,
+				A97981F5C2CA495AA9F64804 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/uniformize.h */,
+				E59E6F79D5314AADB7F00A16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vector_heat_method.h */,
+				E01B4C3A6E8C487CBF9645D5 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/surface/vertex_position_geometry.h */,
+				57275E46A9E34107A721FCB8 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/combining_hash_functions.h */,
+				32C1823B360047CA95CCCAC9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/curve.h */,
+				63ED8405319C457A96D35D16 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/dependent_quantity.h */,
+				79F401B6901D440E9D5859C6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/disjoint_sets.h */,
+				FBBDE4926A24402CAF4555E1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/eigen_interop_helpers.h */,
+				5C35AA83A59B497C9ACA41C1 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/knn.h */,
+				C47E98A0EB9F482DBA55F540 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/mesh_data.h */,
+				96157D3E2BDF4BC19CB1266C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/quaternion.h */,
+				B7354FEE03FB41D6A1F8C306 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/timing.h */,
+				FA3977E9F822431C8935CED2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/utilities.h */,
+				B84CA5718A4B4D96BEC0FDE2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector2.h */,
+				02A2B7A3E64E4B5F885986D2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/include/geometrycentral/utilities/vector3.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EA17E3A6A571449980724F4A = {
+			isa = PBXGroup;
+			children = (
+				C5957A7D1CC24F858B59BAD9 /* ALL_BUILD */,
+				A75B160905544DE9B256782D /* geometry-central */,
+				FE2C184D61574BC8B7E41D45 /* Products */,
+				47D097B8B6684C5688025B14 /* Frameworks */,
+				160A5957EF5A43DA8B286008 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		FE2C184D61574BC8B7E41D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BF53E3FE57427E830DBBF1 /* geometry-central */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B422ADB72FABFD06DCDC4A9B /* geometry-central */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92916F5610974FB9844B8439 /* Build configuration list for PBXNativeTarget "geometry-central" */;
+			buildPhases = (
+				C12041B21E1A4E4EABE38224 /* Sources */,
+				33EA64103AD648CA8311348C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geometry-central";
+			productName = "geometry-central";
+			productReference = 41BF53E3FE57427E830DBBF1 /* geometry-central */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95EB0A5D648444AC88FB6869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 6F3C83641AB145E59A079C55 /* Build configuration list for PBXProject "geometry-central" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				348260E6510F4C8E945F0FF2 /* Debug */,
+				E97FB4131CBF435BB12FC9FD /* Release */,
+				F7003950E6B842449BCAE650 /* MinSizeRel */,
+				1771335729A44CC3AAA4F69E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EA17E3A6A571449980724F4A;
+			projectDirPath = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central";
+			projectRoot = "";
+			targets = (
+				7077E70BDC03A96C5BF0F722 /* ALL_BUILD */,
+				B422ADB72FABFD06DCDC4A9B /* geometry-central */,
+				96F7EDDF3C4A33D990F56C96 /* install */,
+				BD3A3CEA6EE92A188F5F8A62 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06726F422676480C317127DA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		76C585AA32DA6455B2F1E1FF /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  make -f /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  make -f /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  make -f /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  make -f /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12041B21E1A4E4EABE38224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC87A1D3F5564D57AD1B7002 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/eigenproblem_solvers.cpp */,
+				66E1237BAA564A8EB8A37BC2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_algebra_utilities.cpp */,
+				D39A2BAC43E84ED49D84E369 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/linear_solvers.cpp */,
+				F0CDDDBEAC744891B5534155 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/positive_definite_solvers.cpp */,
+				3FE8EA357611499099040881 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/qr_solvers.cpp */,
+				3A0B9E8B9338458BBCC8EF13 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/square_solvers.cpp */,
+				1E7087D8D5E04A79B7D843C6 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/numerical/suitesparse_utilities.cpp */,
+				DB7A22EEF1EF4ADCB1D40E9D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/local_triangulation.cpp */,
+				2240892EA6364A2AA2D48215 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/neighborhoods.cpp */,
+				62A2476059514C729EA86C46 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud.cpp */,
+				A435BDC8296D423B84D3785F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_heat_solver.cpp */,
+				259788964F634BD78CA85FD0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_cloud_io.cpp */,
+				A95119AFE77D4B1B82D7F0A2 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_frame_geometry.cpp */,
+				BE5316BC6CF0468BACAE5D0D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_geometry.cpp */,
+				8087BF34C5124CFAB92805BA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/point_position_normal_geometry.cpp */,
+				AA1D107126A04994B77C1A1E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/pointcloud/sample_cloud.cpp */,
+				BD0E4C67E6D244D6B89B657F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/base_geometry_interface.cpp */,
+				39AF314DE2694D989AB6CA50 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/boundary_first_flattening.cpp */,
+				C53B0448DD4A4181A5319D58 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/common_subdivision.cpp */,
+				73967750F1194ACA83267F5D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/direction_fields.cpp */,
+				33836528AA6A4ABDB432EA0D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/edge_length_geometry.cpp */,
+				81239FF647F145A39CF32174 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/embedded_geometry_interface.cpp */,
+				774EED675CE04BA499E23E55 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesic_helpers.cpp */,
+				743A82EA9B044432B8A08F25 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_geodesics.cpp */,
+				66F2BE270ABF47688FA0B63D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/exact_polyhedral_geodesics.cpp */,
+				BCB20C02CCFA476684DC1E8A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/extrinsic_geometry_interface.cpp */,
+				DDEC83010DC7410FB52733E4 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/fast_marching_method.cpp */,
+				8874D058B745483F8098AA67 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/flip_geodesics.cpp */,
+				069EAA1A96024D2FABAE076D /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/geodesic_centroidal_voronoi_tessellation.cpp */,
+				B051BEB06A884254977D4696 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/halfedge_factories.cpp */,
+				106FCB18CC9B4EED8BDAE0AB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/heat_method_distance.cpp */,
+				2A818414AD584CBEAA7002D7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/integer_coordinates_intrinsic_triangulation.cpp */,
+				17FE7CD666E443859A5B07EB /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intersection.cpp */,
+				4D387D7E80FC4DC185560C9F /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_geometry_interface.cpp */,
+				3555C65C8146445C8BFAD851 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_mollification.cpp */,
+				CE41056E262E415EA9306195 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/intrinsic_triangulation.cpp */,
+				FA91C4E78A0F4C729127E150 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/manifold_surface_mesh.cpp */,
+				D8A58BB445A6440088650FBA /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mesh_graph_algorithms.cpp */,
+				1EA34774CBB84A62BC455857 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/meshio.cpp */,
+				20322C4442504D47BC255C80 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/mutation_manager.cpp */,
+				17C160CF1BCA437A985297FC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/normal_coordinates.cpp */,
+				8B61B439D6EF44F4BF8399CF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/parameterize.cpp */,
+				E71CEA437B624D9DA2305293 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/poisson_disk_sampler.cpp */,
+				3FBCE76DB5724829AFB78B26 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/quadric_error_simplification.cpp */,
+				46D62785D08E47D4B425F1E3 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/remeshing.cpp */,
+				0E99A0778B1F4E3B932CB412 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/rich_surface_mesh_data.cpp */,
+				8FD6599783F34D9581F2D33E /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/signpost_intrinsic_triangulation.cpp */,
+				DBA8CAAFC0DE46AC82CACDBF /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_idt.cpp */,
+				566571B238D44B8A91EB5C74 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/simple_polygon_mesh.cpp */,
+				63F54B84A4D54D048810A5BC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/stripe_patterns.cpp */,
+				38AF72F7D93649AB948991B9 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/subdivide.cpp */,
+				BD0F1A52AB4C48A18605FB35 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_centers.cpp */,
+				DF617BF4CD814C55B2D09411 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh.cpp */,
+				3C30C317AB0A45C9BE328742 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_mesh_factories.cpp */,
+				881D70B7AA924B109A4F5729 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surface_point.cpp */,
+				BAE8F84D3BDC4C96BF55527C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/surgery.cpp */,
+				ECD03FAD67BD4C53AD56463C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/trace_geodesic.cpp */,
+				F5C62DD032BB4BCCA6CE7EE0 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/transfer_functions.cpp */,
+				FDDC38FE3A44417E8F014DEE /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/tufted_laplacian.cpp */,
+				8CF022A7D7924D2587EF621C /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/uniformize.cpp */,
+				2E296923725B432FA5E5EDAC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vector_heat_method.cpp */,
+				243CA53102D4441FB5E8649A /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/surface/vertex_position_geometry.cpp */,
+				EDA674F08241449D9B779921 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/disjoint_sets.cpp */,
+				2EEE2EBB73F04708947A0D15 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/elementary_geometry.cpp */,
+				A08969FA9D5F43BC985C7AE7 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/knn.cpp */,
+				B2AEFAD5B7174D78A964A620 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/quaternion.cpp */,
+				86CD765EF4DF4C8EABE99ABC /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/tri_tri_intersect.cpp */,
+				0CE2758AF4F5436BB1D6A848 /* /Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/utilities/utilities.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465F2B7813DA455899FFC983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B422ADB72FABFD06DCDC4A9B /* geometry-central */;
+			targetProxy = 9816B7ECEF94445789078401 /* PBXContainerItemProxy */;
+		};
+		61C8CF257E804A979540C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD3A3CEA6EE92A188F5F8A62 /* ZERO_CHECK */;
+			targetProxy = 717CDFD82A3D4900BFF53691 /* PBXContainerItemProxy */;
+		};
+		81B1A96972C440558F431AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7077E70BDC03A96C5BF0F722 /* ALL_BUILD */;
+			targetProxy = 23AB6567FAAB4A05A58C755A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2EF33A3A1E41DDBF74753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0AD20A02DF724936998A1FA9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0E593BE517774900B73B8761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2DEA09F9DF0F4C8FB7E2CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5ADB255233A54C63A253901D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		62FEF38118694854878847C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/../include",/opt/homebrew/include/eigen3,"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanort/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanoflann/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/deps/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/happly","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wall -Wextra -ferror-limit=3 -fcolor-diagnostics  -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-deprecated-declarations -Wno-missing-braces -Wno-unused-private-field     -fsanitize=address -fno-limit-debug-info ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "geometry-central";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build/geometry-central.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		657827FDE2B84699B72CD825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		66B76B2B9254475EB53B8FFA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		79E1ECBB762048D9BAF1DFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build";
+			};
+			name = Release;
+		};
+		84899B1C01CA4153BC91B001 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A2595374078F41B78E422880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BD0149688C8F403AAE8DF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BFE2B622DBA3478A8346D0D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF6F675978F54395A8875A30 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/../include",/opt/homebrew/include/eigen3,"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanort/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanoflann/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/deps/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/happly","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wall -Wextra -ferror-limit=3 -fcolor-diagnostics  -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-deprecated-declarations -Wno-missing-braces -Wno-unused-private-field     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "geometry-central";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build/geometry-central.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D114EA31F243440F85F7BA5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D9E085BDF6E14201A39142BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		D9F5EA16627B4943BAFB95B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/../include",/opt/homebrew/include/eigen3,"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanort/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanoflann/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/deps/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/happly","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wall -Wextra -ferror-limit=3 -fcolor-diagnostics  -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-deprecated-declarations -Wno-missing-braces -Wno-unused-private-field        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "geometry-central";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build/geometry-central.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DDEA2F3011374ADFB71843F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F04A16F71D1A490E915E265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build";
+			};
+			name = Debug;
+		};
+		F3AD7149E16C43ABA991D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/src/../include",/opt/homebrew/include/eigen3,"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanort/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/nanoflann/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/deps/include","/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/deps/geometry-central/deps/happly","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11 -Wall -Wextra -ferror-limit=3 -fcolor-diagnostics  -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-deprecated-declarations -Wno-missing-braces -Wno-unused-private-field     -march=native -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "geometry-central";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/build/geometry-central.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3C83641AB145E59A079C55 /* Build configuration list for PBXProject "geometry-central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A16F71D1A490E915E265F /* Debug */,
+				79E1ECBB762048D9BAF1DFBB /* Release */,
+				D9E085BDF6E14201A39142BE /* MinSizeRel */,
+				0AD20A02DF724936998A1FA9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8054E065DC4041B2AB710EF4 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E593BE517774900B73B8761 /* Debug */,
+				A2595374078F41B78E422880 /* Release */,
+				66B76B2B9254475EB53B8FFA /* MinSizeRel */,
+				5ADB255233A54C63A253901D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92916F5610974FB9844B8439 /* Build configuration list for PBXNativeTarget "geometry-central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FEF38118694854878847C7 /* Debug */,
+				F3AD7149E16C43ABA991D691 /* Release */,
+				CF6F675978F54395A8875A30 /* MinSizeRel */,
+				D9F5EA16627B4943BAFB95B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB30AB8971B741EF8046DD3C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0149688C8F403AAE8DF4DE /* Debug */,
+				657827FDE2B84699B72CD825 /* Release */,
+				DDEA2F3011374ADFB71843F4 /* MinSizeRel */,
+				BFE2B622DBA3478A8346D0D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B2863015094600B16FDE91 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2EF33A3A1E41DDBF74753A /* Debug */,
+				2DEA09F9DF0F4C8FB7E2CAF5 /* Release */,
+				84899B1C01CA4153BC91B001 /* MinSizeRel */,
+				D114EA31F243440F85F7BA5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95EB0A5D648444AC88FB6869 /* Project object */;
+}

@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/deps/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/geometry-central/src/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/glad/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/glad/src/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/glfw/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/glfw/src/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/imgui/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/deps/stb/cmake_install.cmake",
+		"/Users/masatatsu/Developer/Nodi/gc-polyscope-project-template/build-xcode/deps/polyscope/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
